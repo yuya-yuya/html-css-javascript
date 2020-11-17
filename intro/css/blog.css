@@ -1,0 +1,158 @@
+body{
+  margin: 0 0 0 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+}
+
+main{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+header{
+  height: 100px;
+  background-color: darkgrey;
+}
+
+footer{
+  height: 100px;
+  background-color: darkgrey;
+}
+
+.title1{
+  background-color: darkgrey;
+  font-size: large;
+  font-weight: bold;
+  float: right;
+}
+
+/* ヘッダー文字 */
+.title2{
+  margin-left: auto;
+  background-color: darkgrey;
+  font-size: larger;
+  font-weight: 400;
+}
+
+/* YouTubeファビコン */
+.icon1{
+  background-color: darkgrey;
+  margin: 0 0 -10px 0;
+}
+
+/* インスタファビコン */
+.icon2{
+  background-color: darkgrey;
+  margin: 0 0 -10px 0;
+}
+
+.layout{
+  display: flex;
+  flex-direction: row;
+}
+
+.title3{
+
+}
+
+/* タイトル */
+.text1{
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 200%;
+  margin: 20px 0 0 40px;
+  text-shadow: 2px 2px 4px;
+}
+.box1{
+  height: 80px;
+  width: 80px;
+  background-color: aliceblue;
+  padding: 0;
+  margin: 0;
+}
+
+/* webレイアウト  */
+.web{
+  background-image: url(teckimage.jpg);
+  width:180px;
+  height: 180px;
+  box-shadow: 20px 50px 50px 0 black;
+  border-radius: 50%; 
+  background-size: cover;
+  text-align: center;
+  line-height: 180px;
+  font-weight: bold;
+  color: white;
+  
+
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-delay: 0.3s;
+}
+
+.web{
+  transform: translate(0px,40px);
+}
+.web:hover{
+  transform: scale(1.1,1.1);
+  opacity: 0.6;
+} 
+
+/* プログラミング */
+.progr{
+  align-items: flex-end;
+  background-image: url(programming.png);
+  width:250px;
+  height: 250px;
+  box-shadow: 20px 50px 50px 0px black;
+  border-radius: 50%; 
+  background-size: cover;
+  text-align: center;
+  line-height: 250px;
+  font-weight: bold;
+  color: white;
+
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-delay: 0.3s;
+}
+
+.progr{
+  transform: translate(0px,40px)
+}
+.progr:hover{
+  transform: scale(1.1,1.1);
+  opacity: 0.6;
+}
+
+/* 動画編集 */
+.movie{
+  justify-content: flex-end;
+  background-image: url(movie.jpg);
+  width:210px;
+  height: 210px;
+  box-shadow: 20px 50px 50px 0px black;
+  border-radius: 50%; 
+  background-size: cover;
+  text-align: center;
+  line-height: 210px;
+  font-weight: bold;
+  color: white;
+
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-delay: 0.3s;
+}
+
+.movie{
+  transform: translate(0px,40px)
+}
+.movie:hover{
+  transform: scale(1.1,1.1);
+  opacity: 0.6;
+}
