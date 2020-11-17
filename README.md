@@ -8,6 +8,7 @@
 
 ②git commit -m "〜〜"
 →ローカルリポジトリでステージングしたファイルをコミットします。
+→””の中もちゃんと記述しないとエラー出る
 
 ③git remote add origin remote repository URL
 　新しいリモートの設定
