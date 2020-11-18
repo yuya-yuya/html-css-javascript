@@ -1,5 +1,6 @@
 # portfolio
 ポートフォリオです。
+htmlやcss,java scriptを使い構成されています。
 プッシュの備忘録も載せてます。
 
 ローカルでコミットしてリモートへプッシュする方法
@@ -8,6 +9,7 @@
 
 ②git commit -m "〜〜"
 →ローカルリポジトリでステージングしたファイルをコミットします。
+→””の中もちゃんと記述しないとエラー出る
 
 ③git remote add origin remote repository URL
 　新しいリモートの設定
